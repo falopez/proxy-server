@@ -1,0 +1,10 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /proxy-server
+zuul:
+  routes:
+    foos:
+      path: /users/**
+      url: http://localhost:8083/proxy-server/v1/users
+
