@@ -4,6 +4,7 @@ This solution is a simple proxy server that logs the headers of all HTTP request
 
 Tecnhologies used:
 
+- Java 11
 - Spring boot
 - Maven
 - Lombok
